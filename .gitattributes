@@ -1,0 +1,13 @@
+# Auto detect text files and normalize line endings to LF
+* text=auto
+
+# C# files
+*.cs text eol=lf
+*.csproj text eol=lf
+*.sln text eol=lf
+
+# Binary files
+*.exe binary
+*.dll binary
+*.pdb binary
+*.so binary
