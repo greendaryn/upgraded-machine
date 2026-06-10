@@ -1,0 +1,26 @@
+# EditorConfig for C# projects
+root = true
+
+# C# files
+[*.cs]
+indent_style = space
+indent_size = 4
+insert_final_newline = true
+trim_trailing_whitespace = true
+charset = utf-8
+
+# Code style rules
+csharp_indent_case_contents = true
+csharp_indent_switch_labels = true
+csharp_prefer_braces = true
+csharp_prefer_simple_using_statement = true
+
+# JSON files
+[*.json]
+indent_style = space
+indent_size = 2
+
+# XML files (for project files)
+[*.{csproj,sln}]
+indent_style = space
+indent_size = 2
